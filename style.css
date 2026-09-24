@@ -1,0 +1,304 @@
+/* =====================================================
+   TEXT COLOR PICKER
+   ===================================================== */
+
+#fontColorPicker {
+    margin: 20px 0;
+
+    padding: 16px;
+
+    background: #ffffff;
+
+    border: 1px solid #e5e7eb;
+
+    border-radius: 14px;
+
+    box-shadow:
+        0 5px 20px rgba(0, 0, 0, 0.04);
+}
+
+
+.color-title {
+    margin-bottom: 12px;
+
+    color: #111827;
+}
+
+
+.color-controls {
+    display: flex;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    gap: 8px;
+}
+
+
+#fontColor {
+    width: 45px;
+
+    height: 40px;
+
+    padding: 2px;
+
+    border: 1px solid #d1d5db;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    background: white;
+}
+
+
+.color-btn {
+    border: none;
+
+    padding: 9px 14px;
+
+    border-radius: 8px;
+
+    color: white;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition:
+        transform 0.15s ease,
+        opacity 0.15s ease;
+}
+
+
+.color-btn:hover {
+    transform: translateY(-2px);
+
+    opacity: 0.9;
+}
+
+
+.color-btn:active {
+    transform: scale(0.96);
+}
+
+
+.color-btn.black {
+    background: #000000;
+}
+
+
+.color-btn.blue {
+    background: #0066ff;
+}
+
+
+.color-btn.red {
+    background: #ff0000;
+}
+
+
+.color-btn.green {
+    background: #008000;
+}
+
+
+.color-btn.purple {
+    background: #800080;
+}
+
+
+.color-btn.pink {
+    background: #ff1493;
+}
+
+
+.color-btn.orange {
+    background: #f97316;
+}
+
+
+.color-btn.gold {
+    background: #d4af37;
+}
+
+
+@media (max-width: 600px) {
+
+    .color-controls {
+        display: grid;
+
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+
+    #fontColor {
+        width: 100%;
+
+        grid-column: 1 / -1;
+    }
+
+
+    .color-btn {
+        width: 100%;
+    }
+
+}
+/* =====================================================
+   TEXT COLOR PICKER
+   ===================================================== */
+
+#fontColorPicker {
+    margin: 20px 0;
+
+    padding: 16px;
+
+    background: #ffffff;
+
+    border: 1px solid #e5e7eb;
+
+    border-radius: 14px;
+
+    box-shadow:
+        0 5px 20px rgba(0, 0, 0, 0.04);
+}
+
+
+.color-title {
+    margin-bottom: 12px;
+
+    color: #111827;
+}
+
+
+.color-controls {
+    display: flex;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    gap: 8px;
+}
+
+
+#fontColor {
+    width: 45px;
+
+    height: 40px;
+
+    padding: 2px;
+
+    border: 1px solid #d1d5db;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    background: white;
+}
+
+
+.color-btn {
+    border: none;
+
+    padding: 9px 14px;
+
+    border-radius: 8px;
+
+    color: white;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition:
+        transform 0.15s ease,
+        opacity 0.15s ease;
+}
+
+
+.color-btn:hover {
+    transform: translateY(-2px);
+
+    opacity: 0.9;
+}
+
+
+.color-btn:active {
+    transform: scale(0.96);
+}
+
+
+.color-btn.black {
+    background: #000000;
+}
+
+
+.color-btn.blue {
+    background: #0066ff;
+}
+
+
+.color-btn.red {
+    background: #ff0000;
+}
+
+
+.color-btn.green {
+    background: #008000;
+}
+
+
+.color-btn.purple {
+    background: #800080;
+}
+
+
+.color-btn.pink {
+    background: #ff1493;
+}
+
+
+.color-btn.orange {
+    background: #f97316;
+}
+
+
+.color-btn.gold {
+    background: #d4af37;
+}
+
+
+@media (max-width: 600px) {
+
+    .color-controls {
+        display: grid;
+
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+
+    #fontColor {
+        width: 100%;
+
+        grid-column: 1 / -1;
+    }
+
+
+    .color-btn {
+        width: 100%;
+    }
+
+}/* Cursive font */
+.cursive {
+    font-family: "Brush Script MT", "Segoe Script", cursive;
+    font-style: italic;
+}
